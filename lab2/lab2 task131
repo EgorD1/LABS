@@ -1,9 +1,11 @@
-month = input().strip().capitalize()
-days_31 = ["Січень", "Березень", "Травень", "Липень", "Серпень", "Жовтень", "Грудень"]
-days_30 = ["Квітень", "Червень", "Вересень", "Листопад"]
-if month == "Лютий":
-    print(f"{month} має 28 або 29 днів.")
+month = input().strip()
+
+days_31 = ["January", "March", "May", "July", "August", "October", "December"]
+days_30 = ["April", "June", "September", "November"]
+
+if month == "February":
+    print(f"{month} has 28 or 29 days in it.")
 elif month in days_30:
-    print(f"{month} має 30 днів.")
+    print(f"{month} has 30 days in it.")
 elif month in days_31:
-    print(f"{month} має 31 день.")
+    print(f"{month} has 31 days in it.")
