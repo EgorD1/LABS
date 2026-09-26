@@ -1,0 +1,4 @@
+num = input().strip()
+sum_first = int(num[0]) + int(num[1])
+sum_last = int(num[2]) + int(num[3])
+print(sum_first == sum_last)

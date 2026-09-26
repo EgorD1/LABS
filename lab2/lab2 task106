@@ -1,5 +1,4 @@
 temp = float(input())
-
 if temp <= 0:
     print("A cold, isn't it?")
 elif temp < 10:
