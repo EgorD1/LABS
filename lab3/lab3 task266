@@ -1,0 +1,10 @@
+n = int(input())
+speeds = []
+for _ in range(n):
+    speeds.append(int(input()))
+max_speed = max(speeds)
+min_speed = min(speeds)
+diff = max_speed - min_speed
+count_low_speed = sum(1 for s in speeds if s <= 30)
+print(diff)
+print(count_low_speed)
