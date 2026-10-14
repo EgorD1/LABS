@@ -1,0 +1,7 @@
+s = input()
+char = input()
+first = s.find(char)
+last = s.rfind(char)
+middle = s[first:last+1]
+result = s[:first] + middle[::-1] + s[last+1:]
+print(result)
