@@ -1,0 +1,9 @@
+c = input().strip()
+
+print(f" {c*3} ")
+print(f"{c}   {c}")
+print(f"{c}   {c}")
+print(f"{c*5}")
+print(f"{c}   {c}")
+print(f"{c}   {c}")
+print(f"{c}   {c}")
