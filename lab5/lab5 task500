@@ -1,0 +1,5 @@
+raw_data = [int(x) for x in input().replace(',', ' ').split()]
+nested_list = [raw_data[i:i+3] for i in range(0, len(raw_data), 3)]
+print(nested_list)
+nested_list.sort(key=lambda x: x[1])
+print(nested_list)
