@@ -1,0 +1,6 @@
+numbers = [int(x) for x in input().split()]
+if len(numbers) > 0:
+    average = sum(numbers) / len(numbers)
+    print(f"{average:.2f}")
+else:
+    print("Список порожній")
