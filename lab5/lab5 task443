@@ -1,0 +1,4 @@
+numbers = [int(x) for x in input().split()]
+if len(numbers) > 0:
+    shifted = [numbers[-1]] + numbers[:-1]
+    print(*(shifted))
