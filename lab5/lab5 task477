@@ -1,0 +1,5 @@
+numbers = [int(x) for x in input().split()]
+evens = [x for x in numbers if x % 2 == 0]
+odds = [x for x in numbers if x % 2 != 0]
+result = evens + odds
+print(*(result))
