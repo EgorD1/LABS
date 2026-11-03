@@ -1,0 +1,11 @@
+s = input().strip()
+digits = sorted(list(s))
+non_zero_idx = 0
+for i, d in enumerate(digits):
+    if d != '0':
+        non_zero_idx = i
+        break
+digits[0], digits[non_zero_idx] = digits[non_zero_idx], digits[0]
+min_num = "".join(digits)
+max_num = "".join(sorted(list(s), reverse=True))
+print(f"{min_num} {max_num}")
