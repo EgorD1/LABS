@@ -1,0 +1,12 @@
+stocks = {
+    'FB': 10.75,
+    'HPQ': 37.2,
+    'ACME': 45.23,
+    'IBM': 205.55,
+    'AAPL': 612.78
+}
+
+n = int(input())
+filtered_stocks = {ticker: price for ticker, price in stocks.items() if price > n}
+for ticker, price in sorted(filtered_stocks.items(), key=lambda x: x[1], reverse=True):
+    print(ticker, price)
