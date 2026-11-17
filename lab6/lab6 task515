@@ -1,8 +1,11 @@
 apps = {
-    'App 1': 179.99,
-    'App 2': 45.50,
-    'App 3': 5.0,
-    'App 4': 99.00
+    'Nova Launcher': 129.00,
+    'Tasker': 99.99,
+    'Poweramp': 199.50,
+    'MX Player Pro': 25.0
 }
 
-print(f"{max(apps.values())}, {min(apps.values())}")
+max_price = max(apps.values())
+min_price = min(apps.values())
+
+print(f"{max_price}, {min_price}")
