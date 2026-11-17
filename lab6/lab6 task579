@@ -1,0 +1,12 @@
+items = {
+    'fridge': 18500.00,
+    'tv': 22300.50,
+    'microwave': 4100.00,
+    'blender': 1499.99,
+    'toaster': 899.00
+}
+
+top_3 = sorted(items.items(), key=lambda x: x[1], reverse=True)[:3]
+
+for item in top_3:
+    print(item)
