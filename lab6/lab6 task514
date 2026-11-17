@@ -1,0 +1,10 @@
+games = {
+    'horror': 'Resident Evil 4',
+    'sandbox': 'Minecraft',
+    'fighting': 'Mortal Kombat 11',
+    'platformer': 'Hollow Knight',
+    'roguelike': 'Hades'
+}
+
+for genre, game in games.items():
+    print(f"{genre}: {game}")
