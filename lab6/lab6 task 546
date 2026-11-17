@@ -1,0 +1,12 @@
+stocks = {
+    'NFLX': 680.50,
+    'AMD': 152.30,
+    'INTC': 21.85,
+    'META': 510.15,
+    'ORCL': 142.60
+}
+
+pairs = sorted((price, ticker) for ticker, price in stocks.items())
+
+for price, ticker in pairs:
+    print(price, ticker)
