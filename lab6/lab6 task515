@@ -1,0 +1,8 @@
+apps = {
+    'App 1': 179.99,
+    'App 2': 45.50,
+    'App 3': 5.0,
+    'App 4': 99.00
+}
+
+print(f"{max(apps.values())}, {min(apps.values())}")
